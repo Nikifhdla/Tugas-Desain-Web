@@ -1,0 +1,46 @@
+nav{
+    background-color: pink;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:;
+    align-items: center;
+}
+
+nav h1{
+    color: az;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+nav ul li a:hover{
+    background-color: blue;
+    color:azure
+
+}
+
+main{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: aquamarine;
+    padding: 20px;
+    display:flex ;
+
+}

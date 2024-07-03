@@ -1,0 +1,54 @@
+
+*body{
+    padding: 0px;
+    background-color: brown;
+}
+
+
+nav{
+    background-color: brown;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1{
+    color: white;
+    text-align: center;
+    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+   
+}
+
+nav ul li{
+    margin-right: 13px;
+    text-align: center;
+}
+
+nav ul li a{
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+nav ul li a:hover{
+    background-color:chocolate;
+    color:azure
+
+}
+ #gambartengah{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+ }
+

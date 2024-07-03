@@ -1,0 +1,40 @@
+button{
+    background-color: pink;
+    border: none;
+    border-radius: 20px;
+    height:50px;
+    width:100px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+
+button:active{
+    cursor: pointer;
+    background-color: beige;
+}
+
+a{
+    color:blue;
+    text-decoration: none;
+}
+
+a:visited{
+    color:azure;
+    font-style:oblique;
+}
+a[target="blank"]{
+    color:brown
+}
+
+a[href="stmikaputama.ac.id"]{
+    color:blue
+}
+
+input[name="Jurusan"]{
+    background-color: aqua;
+    border: none;
+    padding 10px;
+}

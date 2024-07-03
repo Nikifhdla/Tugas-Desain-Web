@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pendaftaran js.css">
+</head>
+<body>
+    <div>
+        <div class="form">
+            <h1> Form Pendaftaran</h1>
+    <form method="post" action="/" id="FormPendaftaran">
+       
+        <div class="form-section">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+    </div>
+
+    <div class="form-section">
+        <label for="Email">Email</label>
+        <input type="email" name="email" id="email">
+    </div>
+
+    <div class="form-section">
+        <label for="prodi">Prodi</label>
+        <select name="prodi" id="">
+        <option value="TI"> Teknik Informatika</option>
+        <option value="SI"> Sistem Informasi</option>
+        <option value="MI"> Manajemen Informasi</option>
+        <option value="KA"> kompouterisasi Akuntansi</option>
+    </select>
+    </div>
+
+    <div class="form-section">
+        <label for="Alamat">Alamat</label>
+        <textarea name="alamat"  id=""></textarea>
+    </div>
+
+    <div class="form-section">
+        <label for="Password">Password</label>
+        <input type="password" name="password" id="password">
+    </div>
+
+    <div class="form-section">
+        <label for="rPassword"> Repeat Password</label>
+        <input type="password" name="password" id="password">
+    </div>
+
+    <button type="sumbit" onclick="validasi()">Sumbit</button>
+    <button type="reset">Reset</button>
+
+    </form>
+</div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

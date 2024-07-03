@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form Registrasi</title>
+     <link rel="stylesheet" href="styldatadirie.css">
+
+    <style>
+        form {
+         background-color: pink
+        }
+        input[Type="text"],input[type="password"]{
+            border: none;
+            border-radius: 30px;
+            padding: 15px;
+        }
+           form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        Form{
+            padding: 10px;
+        }
+
+        .user-input, .user-btn{
+            margin-bottom: 10px;
+        }
+
+        button{
+            border: none;
+            border-radius: 10px;
+            width: 100px;
+            padding: 5px;
+            background-color:rgb(201, 135, 179);
+            color: black;
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: rgb(173, 117, 155);
+            color: black
+        }
+
+    </style>
+</head>
+<body>
+     <nav>
+    <h1> menu</h1>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="datadiri.html">Biodata diri</a></li>
+        <li><a href="registrasi.html"> Registrasi </a></li>
+    </ul>
+
+</nav>  
+<main>
+    <div class="form">
+        <form action="register">
+            <h1> form registrasi</h1>
+            <div class="user-input">
+                <input type="text" name="username" id="" placeholder="username">
+             </div>
+
+             <div class ="user-input">
+                <input type="text" name="nama_lengkap" id="" placeholder="Nama_lengkap">
+             </div>
+
+             <div class="user-input">
+                <input type="password" name="userpassword" id=""  placeholder="Password">
+             </div>
+
+             <div class="user-input">
+                <input type="password" name="cuserpassword" id="" placeholder="konfirmasi Password">
+             </div>
+
+             <div class="user-btn">
+                <button type="sumbit">Sumbit</button>
+                <button type="reset">Batal</button>
+             </div>
+
+       
+    </form>
+</main>
+</body>
+</html>
